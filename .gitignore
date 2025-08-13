@@ -1,0 +1,43 @@
+cat > .gitignore << 'EOF'
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual env
+.env
+.venv
+venv/
+ENV/
+env/
+pip-wheel-metadata/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# Jupyter
+.ipynb_checkpoints
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Tests & coverage
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+
+# Local configs
+*.local
+*.secret
+EOF
