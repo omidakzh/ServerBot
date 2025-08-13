@@ -54,8 +54,8 @@
 
 ```bash
 # کلون کردن پروژه
-git clone https://github.com/yourusername/telegram-server-bot.git
-cd telegram-server-bot
+git clone https://github.com/omidakzh/ServerBot.git
+cd ServerBot
 
 # اجرای اسکریپت نصب خودکار
 chmod +x install.sh
